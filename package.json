@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-objectid-valid",
+  "name": "@pgprojectx/mongoose-objectid-valid",
   "version": "0.0.1",
   "description": "A simple mongoose plugin to validate that ObjectIDs are valid.",
   "main": "index.js",
@@ -10,13 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/pgalchemy/mongoose-objectid-valid.git"
   },
-  "keywords": [
-    "mongoose"
-  ],
+  "keywords": ["mongoose"],
   "author": "John Weis <weis.john@gmail.com>",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/pgalchemy/mongoose-objectid-valid/issues"
   },
-  "homepage": "https://github.com/pgalchemy/mongoose-objectid-valid#readme"
+  "homepage": "https://github.com/pgalchemy/mongoose-objectid-valid#readme",
+  "dependencies": {
+    "mongoose": "^4.11.12"
+  }
 }
